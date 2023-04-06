@@ -1,0 +1,110 @@
+/* CSS Document 
+
+blue
+darkgreen
+antiquewhite
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* header */
+
+header img {
+	width: 100%;
+}
+
+nav {
+	display: block;
+	text-align: center;
+	background-color: darkgreen;
+}
+
+nav li {
+	display: inline;
+	text-decoration: none;
+	margin: 0 auto;
+	padding: 2%;
+}
+
+nav a { 
+	text-decoration: none;
+	color: antiquewhite;
+	font-size: 2.5em;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+/* body */
+
+main {
+	text-align: center;
+	color: antiquewhite;
+	background-color: darkblue;
+}
+
+main h1, main blockquote, main p {
+	padding: 1%;
+}
+
+main h1 {
+	font-size: 2.5em;
+}
+
+main h2 {
+	font-size: 2em;
+	padding: 1%;
+}
+
+main p {
+	display: block;
+}
+
+main blockquote, main p {
+	font-size: 1.5em;
+}
+
+main a {
+	color: antiquewhite;
+}
+
+table {
+	display: block;
+	margin: 0 40%;
+}
+
+td, label {
+	padding: 2%;
+}
+
+.button {
+	padding: 1%;
+	font-size: 1.25em;
+}
+
+.text {
+	font-size: 1.25em;
+}
+
+.inputBox {
+	padding: .5%;
+}
+
+/* footer */
+
+footer p {
+	font-size: 1em;
+	background-color: darkgreen;
+	color: antiquewhite;
+	padding: .5%;
+	text-align: center;
+}
+
+footer a {
+	color: antiquewhite;
+}
